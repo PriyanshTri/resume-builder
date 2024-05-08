@@ -366,22 +366,31 @@ section .title::after{
     width: 90%;
 }
 .skills-content .right .css::before{
-    width: 60%;
+    width: 90%;
 }
 .skills-content .right .js::before{
+    width: 85%;
+}
+.skills-content .right .ts::before{
+    width: 85%;
+}
+.skills-content .right .react::before{
+    width: 90%;
+}
+.skills-content .right .redux::before{
     width: 80%;
 }
-.skills-content .right .php::before{
-    width: 50%;
+.skills-content .right .thunk::before {
+    width: 80%;
 }
-.skills-content .right .mysql::before{
-    width: 50%;
+.skills-content .right .MUI::before{
+    width: 90%;
 }
-.skills-content .right .java::before{
+.skills-content .right .mrt::before {
+    width: 90%;
+}
+.skills-content .right .git::before {
     width: 70%;
-}
-.skills-content .right .CSharp::before{
-    width: 50%;
 }
 
 /* project section styling */
