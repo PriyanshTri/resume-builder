@@ -46,7 +46,7 @@
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Priyansh Mani Tripathi</div>
                 <div class="text-3">And I'm a <span class="typing"></span></div>
-                <a href="Priyansh_Mani_Tripathi_-_Software_Engineer resume (1).pdf" download="resume.pdf">DownloadCV</a>
+                <a href="Priyansh_Tripathi_Resume.pdf" download="resume_Priyansh_Tripathi.pdf">DownloadCV</a>
             </div>
         </div>
     </section>
@@ -64,7 +64,7 @@
                     <p>I'm a software developer at Nirvana Solutions pvt. ltd. I love to code and learn new concept of
                         programming. I am good at frontend and competitive programming in general and I have a good
                         grasp of DSA also. I love to listen to music on my free time and read self-help books.</p>
-                    <a href="Priyansh_Mani_Tripathi_-_Software_Engineer resume (1).pdf" download="resume.pdf">Download
+                    <a href="Priyansh_Tripathi_Resume.pdf" download="resume_Priyansh_Tripathi.pdf">Download
                         CV</a>
                 </div>
             </div>
@@ -110,12 +110,20 @@
             <div class="skills-content">
                 <div class="column left">
                     <div class="text">My creative skills & experiences.</div>
-                    <p>I have a work experience with a company "Devslane" as a frontend trainee and I have a experience
-                        with Internet of Things with DCS.<br>I know HTML, CSS, Javascript, Java and many more
-                        programming languages.<br>
-                        As professional skill, I am a good thinker and I love to solve problems. I am always motivated
-                        and ready for any challenges.</p>
-                    <a href="#">Read more</a>
+                    <p><strong>Experienced Frontend Developer</strong> with a robust background in building and
+                        optimizing web applications. Over <strong>1.5 years</strong> of
+                        professional experience, notably with Nirvana Solutions Pvt. Ltd., demonstrating a strong
+                        ability to enhance front-end
+                        performance, streamline UI development, and ensure consistent, high-quality code.<br /> Adept in
+                        various programming languages
+                        and frameworks, including <strong>React, Redux, TypeScript, Javascript, HTML5, CSS3, SCSS,
+                            Chart.js, Material React Table, Material UI, Git, Github and VSCode</strong> Proven track
+                        record of boosting application
+                        performance, improving user experience, and collaborating effectively with cross-functional
+                        teams. Holds a <strong>B.Tech in
+                            Computer Science with a GPA of 8.08 from GLA University.</strong> Passionate about
+                        developing user-friendly, scalable software
+                        solutions. Certified Frontend Developer from Coding Ninjas.</p>
                 </div>
                 <div class="column right">
                     <div class="bars">
@@ -183,6 +191,13 @@
                     </div>
                     <div class="bars">
                         <div class="info">
+                            <span>Chart.JS</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line git"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
                             <span>git & jira</span>
                             <span>70%</span>
                         </div>
@@ -210,7 +225,7 @@
                         <a href="https://issue-tracking.netlify.app/" target="_blank">
                             <img src="images/issuetracking.png" alt="issue-tracking website"></a>
                         <div class="text">Issue Tracking </div>
-                        <p>A website which can be used as JIRA and any other issue tracking app.</p>
+                        <p>A website which can be used as JIRA and any other issue tracking app. It has 4 sections</p>
                     </div>
                 </div>
                 <div class="card">
@@ -279,29 +294,42 @@
                         <div class="row">
                             <i class="fab fa-linkedin"></i>
                             <div class="info">
-                                <div class="head">linkedin</div>
+                                <div class="head">Linkedin</div>
                                 <div class="sub-title"><a href="https://www.linkedin.com/in/priyanshtri/">
-                                        priyanshtri</a></div>
+                                        PriyanshTri</a></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fab fa-github"></i>
+                            <div class="info">
+                                <div class="head">Github</div>
+                                <div class="sub-title"><a href="https://github.com/PriyanshTri">
+                                        PriyanshTri</a></div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form action="https://formspree.io/f/mvgpollo" method="POST">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" placeholder="Full Name" name="full Name" pattern="[A-Za-z ]{3,}"
+                                    required
+                                    oninvalid="this.setCustomValidity('Please enter a name with at least 3 letters.')"
+                                    required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" name="email" placeholder="Email"
+                                    pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$"
+                                    required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" name="subject" placeholder="Subject" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <textarea cols="30" rows="10" name="message" placeholder="Message.." required></textarea>
                         </div>
                         <div class="button-area">
                             <button type="submit">Send message</button>
